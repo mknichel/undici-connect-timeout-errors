@@ -1,0 +1,23 @@
+{
+    "name": "undici-connect-timeout-errors",
+    "type": "module",
+    "scripts": {
+        "test": "tsx --inspect index.ts"
+    },
+    "devDependencies": {
+        "@types/node": "^20.14.10",
+        "@types/yargs": "^17.0.32",
+        "tsx": "^4.16.2",
+        "typescript": "^5.5.3"
+    },
+    "engines": {
+        "node": "20.x"
+    },
+    "packageManager": "pnpm@8.11.0",
+    "dependencies": {
+        "node-fetch": "^3.3.2",
+        "undici": "^6.19.2",
+        "why-is-node-running": "^3.0.0",
+        "yargs": "^17.7.2"
+    }
+}
